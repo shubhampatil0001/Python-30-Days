@@ -1,42 +1,45 @@
-#storing value in variable and printing 
-name="SHUBHAM KESHAVRAO GHORBAND"
-age= 19
-branch="BSC(AI&IOT)"
-percentage= 80.5
+# Day 3 - User Input and Type Conversion
+#TASK 1
 
-print("NAME:", name)
-print("AGE:", age)
-print("BRANCH:", branch)
-print("PERCENTAGE:", percentage)
+name = input("Enter your name:")
+print("Hello",name)
 
+age = int(input("Enter your age:"))
+print("Your age is:",age)
 
-#finding data type using type functon
-a=25
-b=15.5
-c="python"
-d=True
-print(type(a))
-print(type(b))
-print(type(c))
-print(type(d))
+percentage = float(input("Enter your percentage:"))
+print("Your percentage is:",percentage)
 
-#converting string into integer and sum 50
-a="100"
-print(int(a)+50)
+#using type function for checking data type of variable
+
+print(type(name))
+print(type(age))
+print(type(percentage))
 
 
 
-#creating 3 variables in one line
-name, age, city = "Shubham" , 18 ,"Nanded"
+#TASK 2
+#Taking data from the user of name and city
+name = str(input("Enter your name:"))
+city = str(input("Enter your city:"))
 
 
-#swapping variables 
-a = 10
-b = 20
 
-t = a
-a = b
-b = t
+#TASK 3
+#taking 2 intergers from the user and performing arithmetic operations
+a = int(input("Enter a first integer:"))
+b = int(input("Enter a second :"))
+print("Addition:",a+b)
+print("Subtraction:",a-b)
 
-print("After swapping: a =", a)
-print("After swapping: b =", b)
+
+#length and width of rectangle
+length = float(input("Enter length of rectangle:"))
+width = float(input('Enter width of rectangle:'))
+area = length * width
+print("Area of rectangle is:",area)
+
+
+#finding dattype of celsius 
+temprature = float(input("Enter temperature in celsius:"))
+print("Data type of temperature:", type(temprature))
