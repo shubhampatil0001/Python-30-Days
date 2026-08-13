@@ -1,29 +1,47 @@
-# Day 4 - Operators
+# if or else staemt using for checking adult or not
+age = int(input("Enter your age:"))
+if age >= 18:
+    print("Adult")
+else:
+    print("Minor")
+    
 
-a = 10
-b = 3
-
-print("Addition:", a + b)
-print("Subtraction:", a - b)#Arithematic operators 
-print("Multiplication:", a * b)
-print("Division:", a / b)
-print("Floor Division:", a // b)
-print("Remainder:", a % b)
-print("Power:", a ** b)
-
-print("Equal:", a == b)
-print("Not Equal:", a != b) #comparison operator
-print("Greater:", a > b)
-print("Less:", a < b)
-
-
-#checking age using opertaorss  statemet 
-age = float(input("Enter your age:"))
-print( age >= 18 )
-
-#checkinbg odd or even number using if else statement
+#even or odd using if else statement
 num = int(input("Enter a number:"))
-if num % 2 == 0:
-    print(num, "is an even number")
-else :
-    print(num, "is an odd number")
+if num % 2== 0:
+    print(num,"is an even number")
+else:
+    print(num,"is an odd number") 
+    
+    
+#marks and grades 
+marks = int(input("Enter a marks"))
+
+if marks >=90:
+    print("Grade A+")
+elif marks >= 75:
+    print("Grade A ")
+elif marks >= 60:
+    print("Grade B")
+elif marks >= 50:
+    print("Grade C")
+else:
+    print("Fail")               
+    
+ 
+#Voting eligiblity
+age = int(input("Enter your age:"))
+if age >= 18:
+    print(" You are eligible for vote")
+else:
+    print("You are not eligible for vote")
+            
+            
+pass = [7672]
+a = int(input("Enter your password:"))
+if a == pass[0]:
+    print("Access granted") 
+else:
+    print("Access denied")               
+    
+    
