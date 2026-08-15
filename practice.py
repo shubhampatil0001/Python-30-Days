@@ -1,47 +1,61 @@
-# if or else staemt using for checking adult or not
-age = int(input("Enter your age:"))
-if age >= 18:
-    print("Adult")
-else:
-    print("Minor")
+#for loop
+for i in range (1,6):
+   print(i)
+   
+   
+# Number 1 to 10 using for loop
+for num in range (1,11):
+    print(num)
     
-
-#even or odd using if else statement
-num = int(input("Enter a number:"))
-if num % 2== 0:
-    print(num,"is an even number")
-else:
-    print(num,"is an odd number") 
-    
-    
-#marks and grades 
-marks = int(input("Enter a marks"))
-
-if marks >=90:
-    print("Grade A+")
-elif marks >= 75:
-    print("Grade A ")
-elif marks >= 60:
-    print("Grade B")
-elif marks >= 50:
-    print("Grade C")
-else:
-    print("Fail")               
+  
+  #even numbers from 2 to 10 using for loop
+for even in range (2,10,2):
+    print(even)
     
  
-#Voting eligiblity
-age = int(input("Enter your age:"))
-if age >= 18:
-    print(" You are eligible for vote")
-else:
-    print("You are not eligible for vote")
-            
-            
-pass = [7672]
-a = int(input("Enter your password:"))
-if a == pass[0]:
-    print("Access granted") 
-else:
-    print("Access denied")               
+ #odd numbers from 1 to 10 using for loop   
+for odd in range(1,10,2):
+    print(odd)  
     
     
+   #reverse numbers from 10 to 1 using for loop 
+for reverse in range(10,0,-1):
+       print(reverse)
+    
+ 
+ #while loop   
+i =1 
+
+while i <= 5:
+    print("Hello")
+    i += 1  
+   
+#whille loop       
+    
+i = 1
+while i <= 10:
+    print("SHARAD GHORBAND")
+    i +=1    
+    
+#printing 1 to 20 number
+
+for num in range (1,21):
+    print(num)    
+  
+  
+   #even numbers from 2 to 20 using for loop
+   
+for even in range (2,21,2):
+    print("EVEN NO IS:",even)    
+    
+    
+ #odd number from 1 to 10 using for loop and range  
+for odd in range (1,21,2):   
+       print("ODD NO IS:",odd)
+
+#sum 1 to 101 using  for loop      
+sum = 1
+for i in range (1 , 101):
+    sum = sum + sum
+    print(sum)
+
