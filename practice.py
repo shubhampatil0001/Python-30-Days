@@ -1,61 +1,39 @@
-#for loop
-for i in range (1,6):
-   print(i)
-   
-   
-# Number 1 to 10 using for loop
-for num in range (1,11):
-    print(num)
-    
-  
-  #even numbers from 2 to 10 using for loop
-for even in range (2,10,2):
-    print(even)
-    
- 
- #odd numbers from 1 to 10 using for loop   
-for odd in range(1,10,2):
-    print(odd)  
-    
-    
-   #reverse numbers from 10 to 1 using for loop 
-for reverse in range(10,0,-1):
-       print(reverse)
-    
- 
- #while loop   
-i =1 
+#upper lower length of character and  data type of character
+name = str (input("Enter your name "))
+print(name.upper())
+print(name.lower())
+print(len(name))
+print(type(name))
 
-while i <= 5:
-    print("Hello")
-    i += 1  
-   
-#whille loop       
-    
-i = 1
-while i <= 10:
-    print("SHARAD GHORBAND")
-    i +=1    
-    
-#printing 1 to 20 number
 
-for num in range (1,21):
-    print(num)    
-  
-  
-   #even numbers from 2 to 20 using for loop
-   
-for even in range (2,21,2):
-    print("EVEN NO IS:",even)    
-    
-    
- #odd number from 1 to 10 using for loop and range  
-for odd in range (1,21,2):   
-       print("ODD NO IS:",odd)
+# Reverse string
+word = str (input("Enter your word:"))
+print(word[::-1])
 
-#sum 1 to 101 using  for loop      
-sum = 1
-for i in range (1 , 101):
-    sum = sum + sum
-    print(sum)
+#checking word exist or not using in membership operator
+sentence = str (input ("Enter your sentence;"))
+print("python" in sentence)
 
+#adding two strings using string concatenation
+first_name = "Shubham "
+last_name ="patil"
+
+
+full_name = first_name + last_name
+print(full_name)
+
+# counting of pasword
+password =  (input ("Enter your Password:"))
+password_len = (len(password))
+
+print(len(password))
+
+
+name = str (input("Enter your name:"))
+
+print(name.upper())
+print(name.lower())
+print(len(name))
+print(name[0])
+print(name[-1])
+print(name[::-1])
