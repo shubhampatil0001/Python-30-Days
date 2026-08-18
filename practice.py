@@ -1,39 +1,40 @@
-#upper lower length of character and  data type of character
-name = str (input("Enter your name "))
-print(name.upper())
-print(name.lower())
-print(len(name))
-print(type(name))
+fruits = ["apple", "banana", "orange", "grapes", "strawberry"]
+for fruit in fruits :
+    print(fruits)
+    
+    #print first and last item using index index, negative index
+    print("First fruit:",fruits[0])
+    print("Last fruit:",fruits[-1])
+    
+    # used append to add fruit at end of list
+    fruits.append("Guvava")
+    print(fruits)
+    break 
+  
+  #changing the fruit
+fruits [1] = "Watermalon"
+print(fruits)
+
+# remove fruit using remove ()
+fruits.remove("orange")
+print(fruits)
+
+#finding lenth of list
+print(len(fruits))
+
+#taking no from users and store in list
+numbers = []
+for i in range(10):
+    number = int(input("Enter a number : "))
+    numbers.append(number)
+print(numbers)
 
 
-# Reverse string
-word = str (input("Enter your word:"))
-print(word[::-1])
-
-#checking word exist or not using in membership operator
-sentence = str (input ("Enter your sentence;"))
-print("python" in sentence)
-
-#adding two strings using string concatenation
-first_name = "Shubham "
-last_name ="patil"
-
-
-full_name = first_name + last_name
-print(full_name)
-
-# counting of pasword
-password =  (input ("Enter your Password:"))
-password_len = (len(password))
-
-print(len(password))
-
-
-name = str (input("Enter your name:"))
-
-print(name.upper())
-print(name.lower())
-print(len(name))
-print(name[0])
-print(name[-1])
-print(name[::-1])
+num = []
+for i in range(5):
+    num = int(input("Enter a number"))
+    numbers.append(num)
+    total_sum = sum(numbers)
+    
+    print(numbers)
+    print(total_sum)
